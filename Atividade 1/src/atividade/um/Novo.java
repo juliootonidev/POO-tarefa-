@@ -4,8 +4,16 @@ public class Novo extends Imovel {
 
     private int addnal;
 
+    public int getAddnal() {
+        return addnal;
+    }
 
-    public Novo(int endress, int preco) {
-        super(endress, preco);
+    public void setAddnal(int addnal) {
+        this.addnal = addnal;
+    }
+
+    public Novo() {
+        super();
+        this.addnal = addnal;
     }
 }

@@ -21,7 +21,7 @@ public abstract class Imovel {
         this.preco = preco;
     }
 
-    public Imovel(int endress, int preco) {
+    public Imovel() {
         this.endress = endress;
         this.preco = preco;
     }

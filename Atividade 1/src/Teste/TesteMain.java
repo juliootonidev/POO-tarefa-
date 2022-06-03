@@ -3,6 +3,7 @@ package Teste;
 public class TesteMain {
 
     public static void main(String[] args){
+
         Transporte t = new Transporte();
         Veiculo v = new Veiculo();
         Carro c = new Carro();
