@@ -1,8 +1,28 @@
 package atividade.um;
 
-public class Imovel {
+public abstract class Imovel {
 
-    public static void main(String args[]) {
-        System.out.println("Hello Java");
+    private int endress;
+    private int preco;
+
+    public int getEndress() {
+        return endress;
+    }
+
+    public void setEndress(int endress) {
+        this.endress = endress;
+    }
+
+    public int getPreco() {
+        return preco;
+    }
+
+    public void setPreco(int preco) {
+        this.preco = preco;
+    }
+
+    public Imovel(int endress, int preco) {
+        this.endress = endress;
+        this.preco = preco;
     }
 }
