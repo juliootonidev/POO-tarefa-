@@ -10,5 +10,4 @@ public class TesteMain {
         Novo nv = new Novo();
         Usado us = new Usado();
     }
-
 }
